@@ -7,8 +7,8 @@ IT CAN BYPASS GOOGLE PLAY PROTECT.............
 ALSO THE APP CREATED BY MY TOOL CAN AUTOMATICALLY DISAPPEAR AFTER INSTALLING
 
 
-**must run as root
-**must run in debian-based linux distro like kali
+** must run as root
+** must run in debian-based linux distro like kali
 
 ## USAGE:
    
