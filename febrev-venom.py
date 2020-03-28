@@ -344,14 +344,13 @@ use this command in another terminal to activate listener to your trojan ===> ms
 
 
 
-if __name__=="__main__":
-	try:
-		droid_venom()
-	except KeyboardInterrupt:
-		os.removedirs("febrev")
-		os.system("service postgresql stop")
-		os.system("service apache2 stop")
-		os.system(f"rm /var/www/html/{name.strip()}.apk")
-		print("USER INTERRUPT DETECTED\n BYE BYE HAPPY HACKING")
-		sys.exit(0)
+try:
+	droid_venom()
+except KeyboardInterrupt:
+	os.removedirs("febrev")
+	os.system("service postgresql stop")
+	os.system("service apache2 stop")
+	os.system(f"rm /var/www/html/{name.strip()}.apk")
+	print("USER INTERRUPT DETECTED\n BYE BYE HAPPY HACKING")
+	sys.exit(0)
 
