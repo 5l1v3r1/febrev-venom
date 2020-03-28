@@ -1,6 +1,7 @@
 import os
 import click
 import socket
+import readline
 import random
 import sys
 os.system("clear")
