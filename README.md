@@ -1,6 +1,6 @@
 # NEW VERSION 3.0
 # Febrev-venom updated to version 3.0
-# Added a new functionality found by me i.e, it will disappear itself after installation 
+# Added a new functionality found by me i.e, it will disappear itself after installation , zenity & apksigner is included in the tool and should not need to be installed in your computer
 
 FEBREV venom(also called febrev-droidspy) is a tool to create android RATs through metasploit,changes the icon,package name, Obfuscates the Apk , Makes it look like a legit app , signs the RAT apk ,  and send it to the victim via a link url over the INTERNET
 IT CAN BYPASS GOOGLE PLAY PROTECT.............
